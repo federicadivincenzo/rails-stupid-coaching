@@ -1,0 +1,63 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+$gray: #F4F4F4;
+$purple: #635FC7;
+$light-purple: #625fc79c;
+$white: #FFFFFF;
+$hover-purple: #828FA3;
+$b-radius: .6em;
+$btn-width: 15em;
+$field-width: 21em;
+$padding-tb: .6em;
+$poppins: 'Poppins', sans-serif;
+
+
+
+body {
+  background: $gray; // Using this variable
+}
+
+.form--input {
+  width: $field-width;
+  padding: $padding-tb;
+  border: 1px solid $purple;
+  border-radius: $b-radius;
+  color: rgb(38, 38, 38);
+}
+
+
+.btn-purple {
+  padding: .7em 1em;
+  border-radius: $b-radius;
+  background-color: $purple;
+  color: $white;
+  border: none;
+}
+
+.quote {
+  width: 36em;
+  padding: $padding-tb;
+  margin-bottom: 1em;
+  border-left: 1em solid $white;
+  color: #FFFFFF;
+}
+
+.question {
+  background-color: $light-purple;
+}
+
+.answer {
+  background-color: $purple;
+}
+
+.btn-ask {
+  padding: $padding-tb 2em;
+  background-color: $purple;
+  color: $white;
+  border-radius: $b-radius;
+  text-decoration: none;
+  border: none;
+}
